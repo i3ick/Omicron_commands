@@ -1,0 +1,15 @@
+name: OmicronCmmands
+main: me.i3ick.omicron.OmicronMain
+version: 1.0
+description: Essential custom server commands for the Omicron server.
+commands:
+  dv:
+    description: "Main Omicron command"
+
+permissions:
+  omicron.*:
+    description: "Gain access to all commands!"
+    children:
+      omicron.spectate: true
+      omicron.tnt: true
+      omicron.workbench: true

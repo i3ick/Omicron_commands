@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Omicron_commands:jar">
+    <output-path>$USER_HOME$/Desktop/Spigot/plugins</output-path>
+    <root id="archive" name="Omicron_commands.jar">
+      <element id="module-output" name="Omicron_commands" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
